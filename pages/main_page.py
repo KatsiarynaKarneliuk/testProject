@@ -1,11 +1,12 @@
 from pages.base_page import BasePage
 from selenium.webdriver.common.by import By
+from .locators import MainPageLocators
 
-"""экземпляр родительского класса"""
 class MainPage(BasePage):
     def go_to_login_page(self):
         login_link = self.browser.find_element(By.CSS_SELECTOR,"#login_link")
         login_link.click()
 
     def should_be_login_link(self):  #метод проверки наличия ссылки
-        assert self.is_element_present(By.CSS_SELECTOR, "#login_link"),"Login link is not presented"
+        assert self.is_element_present(*MainPageLocators.LOGIN_LINK), "Login link is not presented" # символ *, он указывает на то, что мы передали именно пару, и этот кортеж нужно распаковать.
+        #assert self.is_element_present(By.CSS_SELECTOR, "#login_link"),"Login link is not presented"
