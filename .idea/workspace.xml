@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4543f2-662b-4264-b8fb-36a553449f26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,7 +64,7 @@
       <recent name="D:\environments\selenium_env\testProject\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_main_page.py">
+  <component name="RunManager" selected="Python.test_product_page">
     <configuration name="main_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +78,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/main_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_product_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_product_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_product_page" />
         <item itemvalue="Python tests.pytest in test_main_page.py" />
         <item itemvalue="Python.main_page" />
       </list>
@@ -144,33 +168,37 @@
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
     <state x="803" y="315" key="#Notifications/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1608413318455" />
+    <state x="591" y="298" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609621066343">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="591" y="298" key="#com.intellij.fileTypes.FileTypeChooser/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609621066343" />
     <state x="0" y="0" key="#pytest_in_test_main_page.py" timestamp="1608488085798">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
     <state x="0" y="0" key="#pytest_in_test_main_page.py/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1608488085798" />
-    <state width="1788" height="4" key="GridCell.Tab.0.bottom" timestamp="1609087047737">
+    <state width="1788" height="218" key="GridCell.Tab.0.bottom" timestamp="1609196455647">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1788" height="4" key="GridCell.Tab.0.bottom/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609087047737" />
-    <state width="1788" height="4" key="GridCell.Tab.0.center" timestamp="1609087047737">
+    <state width="1788" height="218" key="GridCell.Tab.0.bottom/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609196455647" />
+    <state width="1788" height="218" key="GridCell.Tab.0.center" timestamp="1609196455647">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1788" height="4" key="GridCell.Tab.0.center/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609087047737" />
-    <state width="1788" height="4" key="GridCell.Tab.0.left" timestamp="1609087047737">
+    <state width="1788" height="218" key="GridCell.Tab.0.center/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609196455647" />
+    <state width="1788" height="218" key="GridCell.Tab.0.left" timestamp="1609196455646">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1788" height="4" key="GridCell.Tab.0.left/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609087047737" />
-    <state width="1788" height="4" key="GridCell.Tab.0.right" timestamp="1609087047737">
+    <state width="1788" height="218" key="GridCell.Tab.0.left/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609196455646" />
+    <state width="1788" height="218" key="GridCell.Tab.0.right" timestamp="1609196455647">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state width="1788" height="4" key="GridCell.Tab.0.right/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609087047737" />
-    <state x="147" y="0" key="SettingsEditor" timestamp="1608488495081">
+    <state width="1788" height="218" key="GridCell.Tab.0.right/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609196455647" />
+    <state x="147" y="0" key="SettingsEditor" timestamp="1609618457105">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state x="147" y="0" key="SettingsEditor/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1608488495081" />
-    <state x="402" y="0" width="1173" height="1076" key="search.everywhere.popup" timestamp="1608496320537">
+    <state x="147" y="0" key="SettingsEditor/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609618457105" />
+    <state x="402" y="0" width="1177" height="1076" key="search.everywhere.popup" timestamp="1609618508717">
       <screen x="77" y="0" width="1843" height="1080" />
     </state>
-    <state x="402" y="0" width="1173" height="1076" key="search.everywhere.popup/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1608496320537" />
+    <state x="402" y="0" width="1177" height="1076" key="search.everywhere.popup/77.0.1843.1080/1920.-366.1920.1040@77.0.1843.1080" timestamp="1609618508717" />
   </component>
 </project>
