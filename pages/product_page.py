@@ -1,5 +1,4 @@
 from pages.base_page import BasePage
-from selenium.webdriver.common.by import By
 from .locators import ProductPageLocators
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -11,19 +10,24 @@ class ProductPage(BasePage):
 
 
     def guest_should_get_the_same_name(self):
-        product_name=self.browser.find_element(*ProductPageLocators.PRODUCT_NAME)
-        product_name=product_name.text
+        product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME)
+        product_name = product_name.text
         message_name = self.browser.find_element(*ProductPageLocators.MESSAGE_NAME)
         message_name = message_name.text
-        assert product_name == message_name, "the name is different"
+        assert product_name == message_name, 'the name is different'
 
          
     def guest_should_get_the_same_sum(self):
-        product_sum= self.browser.find_element(*ProductPageLocators.PRODUCT_SUM) 
+        product_sum = self.browser.find_element(*ProductPageLocators.PRODUCT_SUM)
         product_sum = product_sum.text
         message_sum = self.browser.find_element(*ProductPageLocators.MESSAGE_SUM)
         message_sum = message_sum.text
-        assert product_sum == message_sum,"the sum is different"
+        assert product_sum == message_sum, 'the sum is different'
 
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
+            'Success message is presented, but should not be'
 
-
+    def should_be_disappeared_message(self):
+        assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \
+            'Success message is not disappeared, but should be disappeared'

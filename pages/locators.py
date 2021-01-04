@@ -14,3 +14,4 @@ class ProductPageLocators():
     PRODUCT_SUM = (By.CSS_SELECTOR, "#content_inner div.col-sm-6.product_main .price_color")
     MESSAGE_NAME = (By.CSS_SELECTOR, "#messages div:nth-child(1) strong")
     MESSAGE_SUM = (By.CSS_SELECTOR, "#messages .alert-info  p:nth-child(1) strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR,"#messages div:nth-child(1) strong")
