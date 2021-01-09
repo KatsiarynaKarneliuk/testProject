@@ -1,11 +1,10 @@
-from .pages.product_page import ProductPage
-from .pages.locators import ProductPageLocators
-from .pages.base_page import BasePage
-from .pages.login_page import LoginPage
-from .pages.basket_page import BasketPage
-import time
-import pytest
 import faker
+import pytest
+
+from .pages.basket_page import BasketPage
+from .pages.login_page import LoginPage
+from .pages.product_page import ProductPage
+
 
 def test_guest_should_see_login_link_on_product_page(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/the-city-and-the-stars_95/"
