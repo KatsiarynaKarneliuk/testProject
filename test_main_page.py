@@ -1,12 +1,11 @@
-from .pages.main_page import MainPage
-from .pages.login_page import LoginPage
-from .pages.locators import LoginPageLocators
-from .pages.locators import MainPageLocators
-from .pages.base_page import BasePage
-from .pages.basket_page import BasketPage
 import pytest
 
-@pytest.mark.login_guest      #для запуска именно этих тестов с меткой нужно добавить "-m login_guest"
+from .pages.basket_page import BasketPage
+from .pages.login_page import LoginPage
+from .pages.main_page import MainPage
+
+
+@pytest.mark.login_guest
 class TestLoginFromMainPage():
     def test_guest_should_see_login_link(self,browser):
         link = "http://selenium1py.pythonanywhere.com"
@@ -40,13 +39,13 @@ def test_link_has_substr(browser):
 
 def test_sould_be_login_form(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
-    page= LoginPage(browser, link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
-    page.open()  # открываем страницу
+    page= LoginPage(browser, link)
+    page.open()
     page.should_be_login_form()
 
 
 def test_sould_be_registration_form(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
-    page= LoginPage(browser, link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
-    page.open()  # открываем страницу
+    page= LoginPage(browser, link)
+    page.open()
     page.should_be_register_form()
