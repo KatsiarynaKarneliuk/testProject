@@ -20,11 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4543f2-662b-4264-b8fb-36a553449f26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/available" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/basket_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
     </list>
@@ -56,10 +66,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\environments\selenium_env\testProject\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\environments\selenium_env\testProject" />
       <recent name="D:\environments\selenium_env\testProject\pages" />
