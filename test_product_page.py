@@ -30,10 +30,10 @@ def test_guest_can_add_product_to_basket(browser, param):
     link = f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{param}"
     page = ProductPage(browser, link)
     page.open()
-    page.guest_can_add_product_to_basket()
+    page.add_product_to_basket()
     page.solve_quiz_and_get_code()
-    page.guest_should_get_the_same_name()
-    page.guest_should_get_the_same_sum()
+    page.should_get_the_same_name()
+    page.should_get_the_same_sum()
 
 @pytest.mark.need_review
 def test_guest_cant_see_product_in_basket_opened_from_product_page(browser):
@@ -69,10 +69,9 @@ class TestUserAddToBasketFromProductPage():
         link = "http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/"
         page = ProductPage(browser, link)
         page.open()
-        page.guest_can_add_product_to_basket()
-        page.guest_should_get_the_same_name()
-        page.guest_should_get_the_same_sum()
-
+        page.add_product_to_basket()
+        page.should_get_the_same_name()
+        page.should_get_the_same_sum()
 
 
 @pytest.mark.xfail
@@ -80,7 +79,7 @@ def test_message_disappeared_after_adding_product_to_basket(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     page = ProductPage(browser, link)
     page.open()
-    page.guest_can_add_product_to_basket()
+    page.add_product_to_basket()
     page.should_be_disappeared_message()
 
 @pytest.mark.xfail
@@ -88,5 +87,5 @@ def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     page = ProductPage(browser, link)
     page.open()
-    page.guest_can_add_product_to_basket()
+    page.add_product_to_basket()
     page.should_not_be_success_message()
